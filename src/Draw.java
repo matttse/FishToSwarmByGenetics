@@ -1,10 +1,10 @@
-import processing.core.PApplet;
+import processing.core.*;
 
-public class main extends PApplet {
+public class Draw extends PApplet {
 	// initialize objects
 	School s;
 	// variable set
-	int schoolPopSize = 50;
+	int schoolPopSize = 5;
 	float aC = 1.0f;
 	float cC = 1.4f;
 	float sC = 2.0f;
@@ -15,7 +15,7 @@ public class main extends PApplet {
 
 	// PApplet extension
 	public static void main(String[] args) {
-		PApplet.main("Lir");
+		PApplet.main("Draw");
 	}
 
 	// canvas size

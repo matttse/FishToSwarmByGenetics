@@ -1,11 +1,11 @@
 
-import controller.School;
+import controller.Population;
 import model.Guppy;
 import processing.core.*;
 
 public class Draw extends PApplet {
 	// initialize objects
-	School s;
+	Population s;
 	
 	// variable set
 	int schoolPopSize = 5;
@@ -29,7 +29,7 @@ public class Draw extends PApplet {
 
 	// add guppies to the school
 	public void setup() {
-		s = new School();
+		s = new Population();
 		for (int i = 0; i < schoolPopSize; i++) {
 			Guppy g = new Guppy(this, 0, 0);
 			s.addGuppy(g);

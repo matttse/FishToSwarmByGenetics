@@ -3,10 +3,10 @@ import java.util.ArrayList;
 
 import model.Guppy;
 
-public class School {
+public class Population {
 	ArrayList<Guppy> guppies;
 	// construct array of fish
-	public School() {
+	public Population() {
 		guppies = new ArrayList<Guppy>();
 	}
 

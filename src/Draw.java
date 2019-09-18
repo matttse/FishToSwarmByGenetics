@@ -1,8 +1,12 @@
+
+import controller.School;
+import model.Guppy;
 import processing.core.*;
 
 public class Draw extends PApplet {
 	// initialize objects
 	School s;
+	
 	// variable set
 	int schoolPopSize = 5;
 	float aC = 1.0f;

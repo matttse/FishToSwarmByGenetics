@@ -1,9 +1,12 @@
+package controller;
 import java.util.ArrayList;
+
+import model.Guppy;
 
 public class School {
 	ArrayList<Guppy> guppies;
 	// construct array of fish
-	School() {
+	public School() {
 		guppies = new ArrayList<Guppy>();
 	}
 
